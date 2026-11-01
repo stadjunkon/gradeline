@@ -1,0 +1,15 @@
+{
+  "name": "gradeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive terrain-and-elevation route block (Three.js r128, single HTML file)",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "shot": "node tools/screenshot.js",
+    "profile": "node tools/terrain-profile.js b"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "three": "0.128.0"
+  }
+}
